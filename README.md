@@ -6,7 +6,9 @@ This repository documents my progress, code exercises, and biomedical data scien
 
 ## Lessons & Exercises
 
-### Statistics and R - Week 1: R - Introduction to dplyr
+### Statistics and R
+#### Week 1: R
+##### Introduction to dplyr
 
 * **Script:** `01_female-mice_weights.R`
 * **Notes:** 
