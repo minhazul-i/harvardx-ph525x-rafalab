@@ -1,13 +1,13 @@
 library(tidyverse)
 dat <- read.csv("data/femaleMiceWeights.csv")
 
-# Filter the mices under the chow diet
+# Filter/ obtain data of the mices under the chow diet only
 controls <- filter(dat, Diet == "chow")
 
-# Obtain only the body weights of the controls
+# Obtain only the body weights column from the controls
 select(controls, Bodyweight)
 
-# convert the bodyweights into vector
+# convert the bodyweights into a vector
 controls <- select(controls, Bodyweight)
 unlist(controls)
 
