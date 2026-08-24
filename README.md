@@ -10,4 +10,4 @@ This repository documents my progress, code exercises, and biomedical data scien
 
 * **Script:** `01_female-mice_weights.R`
 * **Notes:** 
-  * Used `read.csv`, `filter()`, `select()`, pipe `%>%`, `unlist()`
+  * Used `read.csv()`, `filter()`, `select()`, pipe `%>%`, `unlist()`
