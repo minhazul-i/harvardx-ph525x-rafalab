@@ -1,6 +1,6 @@
 # HarvardX PH525X: Biomedical Data Science Training, Series 1: Data Analysis for Life Sciences
 
-This repository documents my progress, code exercises, and biomedical data science workflow compleyted as part of Harvard's PH525X series.
+This repository documents my progress, code exercises, and biomedical data science workflow completed as part of Harvard's PH525X series.
 
 ---
 
