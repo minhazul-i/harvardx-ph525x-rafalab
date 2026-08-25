@@ -65,6 +65,13 @@ F(99) → 100%
 
 ECDF takes our observed data and lets us find, for any given value, what proportion of the observations have a value less than or equal to it.
 
+* **Histogram:** The ECDF asks: “What proportion of observations are ≤ this particular value?”
+
+A histogram instead asks: “How are the observations distributed across intervals?”
+
+For example:60–65, 65–70, 70–75, 75–80. These intervals are called bins.
+
+The histogram shows how many observations fall into each bin, allowing us to see where the observations are concentrated or sparse and what the overall shape of the distribution looks like.
 
 
 * **Syntax learned:** `sample()`, 
