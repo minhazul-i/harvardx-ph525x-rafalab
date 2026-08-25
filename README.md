@@ -14,6 +14,7 @@ This repository documents my progress, code exercises, and biomedical data scien
 * **Notes:** 
   * Used `read.csv()`, `filter()`, `select()`, pipe `%>%`, `unlist()`
 
+
 #### Week 2: Random Variables and Central Limit Theorem
 ##### Random variables,Null hypothesis, P-value, Distribution, Empirical Cumulative Distributive Curve (ECDF), Histograms
 * **Notes:**
