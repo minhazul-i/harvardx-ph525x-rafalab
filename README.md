@@ -16,7 +16,7 @@ This repository documents my progress, code exercises, and biomedical data scien
 
 
 #### Week 2: Random Variables and Central Limit Theorem
-##### Random variables,Null hypothesis, P-value, Distribution, Empirical Cumulative Distributive Function (ECDF), Histograms
+##### Random variables,Null hypothesis, P-value, Distribution, Empirical Cumulative Distribution Function (ECDF), Histograms
 * **Notes:**
 * **Random Variable:** Let's say we have a population of 200 and randomly take a sample of 20 each time. Every time we randomly take 20 items, we may get a different sample, and therefore we may get a different sample mean each time. So the sample mean can be a random variable, because its value changes depending on the random sample we get.
  
