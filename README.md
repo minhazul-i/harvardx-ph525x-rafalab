@@ -73,6 +73,3 @@ A histogram instead asks: “How are the observations distributed across interva
 For example:60–65, 65–70, 70–75, 75–80. These intervals are called bins.
 
 The histogram shows how many observations fall into each bin, allowing us to see where the observations are concentrated or sparse and what the overall shape of the distribution looks like.
-
-
-* **Syntax learned:** `sample()`, 
