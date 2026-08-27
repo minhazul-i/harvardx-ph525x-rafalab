@@ -93,3 +93,13 @@ This allows us to calculate probabilities from a normal distribution without hav
 Core idea: μ tells me where the distribution is, σ tells me how spread out it is, and pnorm() tells me how much probability lies to the left of a value.
 
 * **Populations, Samples and Estimates:** A population is considered fixed, while the randomness comes from which individuals we sample from it. Population values are represented with lowercase letters (x1,...,xm), while random sample values are represented with uppercase letters (X1,...,Xm). Population parameters such as mean and SD describe the entire population and are usually unknown in practice. We therefore take a random sample and calculate statistics such as the sample mean , which estimates the population mean $\mu$. Because different random samples give different sample means, $\bar{X}$ is itself a random variable. Similarly, $\bar{Y} - \bar{X}$ is a random variable used to estimate the population difference $\mu_Y - \mu_X$. The Central Limit Theorem will allow us to mathematically describe the sampling distribution of these estimates.
+
+Variance & Standard Deviation
+To measure spread, we calculate how far each observation is from the mean: \(x-\mu\) or \(x-\bar{x}\).
+We square the differences so negative and positive deviations don't cancel each other out.
+Population variance:
+$$ \sigma^2=\frac{\sum(x-\mu)^2}{n} $$
+When estimating population variance from a sample, we use:
+$$ s^2=\frac{\sum(x-\bar{x})^2}{n-1} $$
+We use \(n-1\) because the sample mean is estimated from the same data, which makes the deviations slightly smaller on average; the correction compensates for this.
+Standard deviation = square root of variance, bringing the measurement back to the original units.
