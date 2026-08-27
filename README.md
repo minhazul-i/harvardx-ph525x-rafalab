@@ -73,3 +73,17 @@ A histogram instead asks: “How are the observations distributed across interva
 For example:60–65, 65–70, 70–75, 75–80. These intervals are called bins.
 
 The histogram shows how many observations fall into each bin, allowing us to see where the observations are concentrated or sparse and what the overall shape of the distribution looks like.
+
+* **Normal Distribution:** A normal/Gaussian distribution is a bell-shaped distribution where values around the mean occur more frequently, and values become less frequent as we move away from the mean.
+
+Mean (μ) determines the center/location of the curve, while standard deviation (σ) determines how spread out the curve is: small σ → narrower/taller, large σ → wider/flatter.
+
+The area under the curve represents probability.
+`pnorm(x, mean, sd)` gives the proportion/probability ≤ x.
+
+For the probability > x: `1 - pnorm(x, mean, sd)`
+For the probability between two values: `pnorm(upper, mean, sd) - pnorm(lower, mean, sd)`
+
+This allows us to calculate probabilities from a normal distribution without having to simulate and count thousands of values. In hypothesis testing, if the null distribution is approximately normal, we can use its mean and SD with pnorm() to estimate tail probabilities/p-values.
+
+Core idea: μ tells me where the distribution is, σ tells me how spread out it is, and pnorm() tells me how much probability lies to the left of a value.
