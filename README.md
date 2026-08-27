@@ -84,6 +84,7 @@ The area under the curve represents probability.
 
 For the probability > x: 
 `1 - pnorm(x, mean, sd)`
+
 For the probability between two values: 
 `pnorm(upper, mean, sd) - pnorm(lower, mean, sd)`
 
