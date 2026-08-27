@@ -17,7 +17,7 @@ pnorm(175, 165, 7)
 
 # Problem_05 Normal distribution
 
-# Adult weights are approximately normally distributed with mean = 60 kg, and SD = 8 kg
+# Adult weights are approximately normally distributed with mean = 65 kg, and SD = 8 kg
 # what is the probability that a randomly selected adult weighs between 60 and 75 kg?
 
-pnorm(75, 60, 8) - pnorm(60, 60, 8)
+pnorm(75, 65, 8) - pnorm(60, 65, 8)
