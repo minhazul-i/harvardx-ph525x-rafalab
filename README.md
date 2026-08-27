@@ -79,6 +79,7 @@ The histogram shows how many observations fall into each bin, allowing us to see
 Mean (μ) determines the center/location of the curve, while standard deviation (σ) determines how spread out the curve is: small σ → narrower/taller, large σ → wider/flatter.
 
 The area under the curve represents probability.
+
 `pnorm(x, mean, sd)` gives the proportion/probability ≤ x.
 
 For the probability > x: 
