@@ -152,7 +152,7 @@ The uncertainty comes from both groups, so their variances add:
 
 $$
 SE(\bar{Y}-\bar{X})
-
+=
 \sqrt{\frac{\sigma_Y^2}{N}+\frac{\sigma_X^2}{M}}
 $$
 
