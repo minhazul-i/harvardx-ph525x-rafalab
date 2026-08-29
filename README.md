@@ -21,6 +21,7 @@ For a better understanding of the statistical concepts covered throughout the co
 ### Statistics and R
 ---
 #### Week 1: R
+---
 ##### Introduction to dplyr
 
 * **Script:** `01_female-mice_weights.R`
