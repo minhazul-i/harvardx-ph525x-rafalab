@@ -97,14 +97,11 @@ Core idea: μ tells me where the distribution is, σ tells me how spread out it 
 * **Variance & Standard Deviation:** To measure spread, we calculate how far each observation is from the mean: $\mu$ or $\bar{x}$.
 We square the differences so negative and positive deviations don't cancel each other out.
 
-Population variance, $$
-\sigma^2 = \frac{\sum (x-\mu)^2}{n}
-$$
+**Population variance**, $\sigma^2 = \frac{\sum (x-\mu)^2}{n}$
 
-When estimating population variance from a sample, we use: $$
-s^2 = \frac{\sum (x-\bar{x})^2}{n-1}
-$$
+When **estimating population variance from a sample**, we use: $s^2 = \frac{\sum (x-\bar{x})^2}{n-1}$
+
 
 We use \(n-1\) because the sample mean is estimated from the same data, which makes the deviations slightly smaller on average; the correction compensates for this.
 
-Standard deviation = square root of variance, bringing the measurement back to the original units.
+**Standard deviation = square root of variance**, bringing the measurement back to the original units.
