@@ -107,6 +107,7 @@ We use \(n-1\) because the sample mean is estimated from the same data, which ma
 **Standard deviation = square root of variance**, bringing the measurement back to the original units.
 
 
+
 * **Central Limit Theorem & t-distribution**
 
 * **Central Limit Theorem**
@@ -121,7 +122,7 @@ $$
 
 So, larger sample → smaller SE → sample mean becomes more stable/precise.
 
-Standardizing the sample mean
+**Standardizing the sample mean**
 
 $$
 \frac{\bar{X}-\mu}{\sigma/\sqrt{n}}
@@ -139,7 +140,7 @@ $$
 
 This means a normal distribution with mean 0 and SD 1.
 
-Difference between two sample means
+**Difference between two sample means**
 
 When comparing two independent groups:
 
