@@ -191,7 +191,7 @@ So:
 
 Because $s$ is estimated from the sample and therefore varies from sample to sample, replacing $\sigma$ with $s$ introduces extra uncertainty.
 
-* **Why does this create the t-distribution?**
+**Why does this create the t-distribution?**
 
 With a known population SD:
 
@@ -233,9 +233,7 @@ So the t-distribution accounts for the extra uncertainty caused by estimating th
 - The theoretical t-distribution result assumes the original observations/population are normally distributed.
 - As sample size increases, $s$ becomes a better estimate of $\sigma$, the extra uncertainty decreases, and the t-distribution approaches the standard normal distribution.
 
-* **QQ plot**
-
-A QQ plot compares the observed values in your data with the values we would expect from a theoretical distribution, such as a normal distribution.
+**QQ plot:** A QQ plot compares the observed values in your data with the values we would expect from a theoretical distribution, such as a normal distribution.
 
 - If the points lie roughly along the straight diagonal line representing the theoretical distribution, the data are reasonably close to that distribution.
 - If the points deviate substantially from the line, the data may not follow that distribution well.
