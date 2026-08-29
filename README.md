@@ -34,7 +34,7 @@ For a better understanding of the statistical concepts covered throughout the co
 ---
 ##### Random variables,Null hypothesis, P-value, Distribution, CDF, Empirical Cumulative Distribution Function (ECDF), Histograms, Normal Distribution, Populations, Samples and Estimates, Variance, Standard Deviation (SD), Central Limit Theorem (CLT), Standard Error (SE), t-distribution, QQ-plot
 
-* **Notes:**
+**Notes:**
 * **Random Variable:** Let's say we have a population of 200 and randomly take a sample of 20 each time. Every time we randomly take 20 items, we may get a different sample, and therefore we may get a different sample mean each time. So the sample mean can be a random variable, because its value changes depending on the random sample we get.
  
 * **Null Hypothesis:** The null hypothesis is basically the idea of “what if there is no effect?” For example, we see that some students have gained more weight and they also had better food. We might think: “The better food caused the increased weight.” 
