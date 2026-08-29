@@ -1,6 +1,6 @@
 ## Learning Resources
 
-This repository follows the **HarvardX Biomedical Data Science** training and its accompanying PH525x materials.
+This repository contains the documentation of my progress, code exercises, and biomedical data science workflow completed as part of Harvard's PH525X series. It follows the **HarvardX Biomedical Data Science** training and its accompanying PH525x materials. 
 
 - **HarvardX Biomedical Data Science Open Online Training — Data Analysis for the Life Sciences**  
   https://rafalab.dfci.harvard.edu/pages/harvardx.html
@@ -8,11 +8,6 @@ This repository follows the **HarvardX Biomedical Data Science** training and it
 - **PH525x Series — Biomedical Data Science (eBook)**  
   https://genomicsclass.github.io/book/
   
-
-# HarvardX PH525X: Biomedical Data Science Training, Series 1: Data Analysis for Life Sciences
-
-This repository documents my progress, code exercises, and biomedical data science workflow completed as part of Harvard's PH525X series.
-
 ---
 
 ## Lessons & Exercises
