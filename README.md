@@ -19,6 +19,7 @@ For a better understanding of the statistical concepts covered throughout the co
 ## Lessons & Exercises (Blend of the both resources)
 
 ### Statistics and R
+---
 #### Week 1: R
 ##### Introduction to dplyr
 
@@ -28,6 +29,7 @@ For a better understanding of the statistical concepts covered throughout the co
 
 
 #### Week 2: Random Variables and Central Limit Theorem
+---
 ##### Random variables,Null hypothesis, P-value, Distribution, Empirical Cumulative Distribution Function (ECDF), Histograms
 * **Notes:**
 * **Random Variable:** Let's say we have a population of 200 and randomly take a sample of 20 each time. Every time we randomly take 20 items, we may get a different sample, and therefore we may get a different sample mean each time. So the sample mean can be a random variable, because its value changes depending on the random sample we get.
