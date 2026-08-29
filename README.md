@@ -110,11 +110,7 @@ We use \(n-1\) because the sample mean is estimated from the same data, which ma
 
 * **Central Limit Theorem & t-distribution**
 
-* **Central Limit Theorem**
-
-- If we repeatedly take random samples of a sufficiently large size and calculate their means, the distribution of those sample means becomes approximately normal.
-- The sample means are centered around the population mean.
-- The spread of the sample means is called the standard error (SE).
+**Central Limit Theorem:** If we repeatedly take random samples of a sufficiently large size and calculate their means, the distribution of those sample means becomes approximately normal. The sample means are centered around the population mean. The spread of the sample means is called the standard error (SE).
 
 $$
 SE = \frac{\sigma}{\sqrt{n}}
