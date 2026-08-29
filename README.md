@@ -10,7 +10,7 @@ This repository contains the documentation of my progress, code exercises, and b
   
 ---
 
-## Lessons & Exercises
+## Lessons & Exercises (Blend of the both resources)
 
 ### Statistics and R
 #### Week 1: R
