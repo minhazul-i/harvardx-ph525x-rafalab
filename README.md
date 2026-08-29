@@ -105,3 +105,147 @@ When **estimating population variance from a sample**, we use: $s^2 = \frac{\sum
 We use \(n-1\) because the sample mean is estimated from the same data, which makes the deviations slightly smaller on average; the correction compensates for this.
 
 **Standard deviation = square root of variance**, bringing the measurement back to the original units.
+
+
+* **Central Limit Theorem & t-distribution**
+
+* **Central Limit Theorem**
+
+- If we repeatedly take random samples of a sufficiently large size and calculate their means, the distribution of those sample means becomes approximately normal.
+- The sample means are centered around the population mean.
+- The spread of the sample means is called the standard error (SE).
+
+$$
+SE = \frac{\sigma}{\sqrt{n}}
+$$
+
+So, larger sample → smaller SE → sample mean becomes more stable/precise.
+
+Standardizing the sample mean
+
+$$
+\frac{\bar{X}-\mu}{\sigma/\sqrt{n}}
+$$
+
+- $\bar{X}-\mu$ = difference between the sample mean and population mean.
+- $\sigma/\sqrt{n}$ = standard error.
+- The whole expression tells us how many standard errors the sample mean is away from the population mean.
+
+By the CLT, this is approximately:
+
+$$
+N(0,1)
+$$
+
+This means a normal distribution with mean 0 and SD 1.
+
+Difference between two sample means
+
+When comparing two independent groups:
+
+$$
+\bar{Y}-\bar{X}
+$$
+
+The uncertainty comes from both groups, so their variances add:
+
+$$
+SE(\bar{Y}-\bar{X})
+
+\sqrt{\frac{\sigma_Y^2}{N}+\frac{\sigma_X^2}{M}}
+$$
+
+Under the null hypothesis:
+
+$$
+H_0:\mu_Y-\mu_X=0
+$$
+
+the sampling distribution of the difference is centered around 0.
+
+We can standardize the observed difference and use the normal distribution to calculate a p-value.
+
+But we don't know $\sigma$...
+
+Usually we don't know the true population SD $\sigma$, so we estimate it from the sample.
+
+First, we calculate the sample variance:
+
+$$
+s^2=\frac{\sum_{i=1}^{n}(X_i-\bar{X})^2}{n-1}
+$$
+
+Then take the square root to get the sample SD:
+
+$$
+s=\sqrt{s^2}
+$$
+
+So:
+
+- $\sigma$ = population SD
+- $\sigma^2$ = population variance
+- $s$ = sample SD
+- $s^2$ = sample variance
+
+Because $s$ is estimated from the sample and therefore varies from sample to sample, replacing $\sigma$ with $s$ introduces extra uncertainty.
+
+* **Why does this create the t-distribution?**
+
+With a known population SD:
+
+$$
+\frac{\bar{X}-\mu}{\sigma/\sqrt{n}}
+$$
+
+follows the standard normal distribution approximately.
+
+But when we use $s$ instead of $\sigma$:
+
+$$
+\frac{\bar{X}-\mu}{s/\sqrt{n}}
+$$
+
+the denominator itself can vary.
+
+Sometimes $s$ happens to be smaller than the true $\sigma$. A smaller denominator can make the whole ratio unusually large.
+
+For example:
+
+$$
+\frac{2}{1}=2
+$$
+
+but:
+
+$$
+\frac{2}{0.5}=4
+$$
+
+Because this can happen, the t-distribution has heavier tails than the normal distribution.
+
+Heavier tails = more probability of getting extreme values.
+
+So the t-distribution accounts for the extra uncertainty caused by estimating the population SD from the sample.
+
+- Particularly useful for smaller samples.
+- The theoretical t-distribution result assumes the original observations/population are normally distributed.
+- As sample size increases, $s$ becomes a better estimate of $\sigma$, the extra uncertainty decreases, and the t-distribution approaches the standard normal distribution.
+
+* **QQ plot**
+
+A QQ plot compares the observed values in your data with the values we would expect from a theoretical distribution, such as a normal distribution.
+
+- If the points lie roughly along the straight diagonal line representing the theoretical distribution, the data are reasonably close to that distribution.
+- If the points deviate substantially from the line, the data may not follow that distribution well.
+
+* **Main takeaway**
+
+CLT: Sample means become approximately normal when the sample size is sufficiently large.
+
+SE: Tells me how much sample means vary from sample to sample.
+
+t-distribution: Accounts for the extra uncertainty when the population SD is unknown and estimated from the sample.
+
+Heavier tails: The t-distribution has more probability in the extreme regions because estimating the SD introduces additional uncertainty.
+
