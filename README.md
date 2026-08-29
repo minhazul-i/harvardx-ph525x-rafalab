@@ -30,7 +30,7 @@ For a better understanding of the statistical concepts covered throughout the co
 **Dataset:**
 - `femaleMiceWeights.csv`
 
-#### Week 2: Random Variables and Central Limit Theorem
+#### Week 2: Random Variables and Central Limit Theorem / Chapter 1 - Inference
 ---
 ##### Random variables,Null hypothesis, P-value, Distribution, Empirical Cumulative Distribution Function (ECDF), Histograms
 * **Notes:**
