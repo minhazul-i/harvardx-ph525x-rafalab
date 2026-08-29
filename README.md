@@ -20,14 +20,15 @@ For a better understanding of the statistical concepts covered throughout the co
 
 ### Statistics and R
 ---
-#### Week 1: R
+#### Week 1: R / Chapter 0 - Introduction
 ---
-##### Introduction to dplyr
 
-* **Script:** `01_female-mice_weights.R`
-* **Notes:** 
-  * Used `read.csv()`, `filter()`, `select()`, pipe `%>%`, `unlist()`
+**Scripts:**
+- `01_intro_to_dplyr.R`
+- `01_dplyr_intro_exercises.R`
 
+**Dataset:**
+- `femaleMiceWeights.csv`
 
 #### Week 2: Random Variables and Central Limit Theorem
 ---
