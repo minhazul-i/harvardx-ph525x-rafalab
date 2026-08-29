@@ -7,6 +7,13 @@ This repository contains the documentation of my progress, code exercises, and b
 
 - **PH525x Series — Biomedical Data Science (eBook)**  
   https://genomicsclass.github.io/book/
+
+### Supplementary Resource
+
+For a better understanding of the statistical concepts covered throughout the course, the relevant **StatQuest** playlist on Youtube is recommended to be followed alongside the PH525x lessons. They provide intuitive visual explanations that complement the course material.
+
+- **StatQuest — Statistics Fundamentals**
+  https://youtube.com/playlist?list=PLblh5JKOoLUK0FLuzwntyYI10UQFUhsY9&si=RKTkDwssA0BTd3dP
   
 ---
 
