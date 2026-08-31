@@ -17,7 +17,7 @@ For a better understanding of the statistical concepts covered throughout the co
 But for learning the statistical background and getting used to implementing them using R, I found this book the most helpful:
 
 - [Learning Statistics with R Book by Danielle Navarro](https://learningstatisticswithr.com)
-- 
+
 ---
 
 ## Lessons & Exercises (Blend of the both resources)
