@@ -14,7 +14,7 @@ For a better understanding of the statistical concepts covered throughout the co
 
 - [Statquest - Statistics Fundamentals](https://youtube.com/playlist?list=PLblh5JKOoLUK0FLuzwntyYI10UQFUhsY9&si=RKTkDwssA0BTd3dP)
 
-But for learning the statistical background and getting used to implementing them using R, I found this book by one of my favorite statisticians **Danille Navarro** the most helpful:
+For learning the statistical background and getting used to implementing them using R, I found this book by one of my favorite statisticians **Danille Navarro** the most helpful:
 
 - [Learning Statistics with R Book by Danielle Navarro](https://learningstatisticswithr.com)
 
